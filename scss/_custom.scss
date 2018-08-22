@@ -1,0 +1,81 @@
+.settings {
+	margin: 0 auto;
+
+	.setting {
+		position: relative;
+		border-bottom: 1px solid #e0e0e0;
+		height: 2rem;
+		line-height: 2rem;
+		padding-left: 1rem;
+
+		.switch, .input-group {
+			position: absolute;
+			right: 0;
+			top: 0;
+		    text-align: right;
+		    display: block;
+		    width: auto;
+		}
+
+	}
+
+	.row {
+		display: block;
+	}
+}
+
+.callout.analytics {
+	background-color: #f1f1f1;
+
+	.left-menu {
+		background-color: $base-gray;
+		padding: 0;
+
+		li {
+			&:hover {
+				background-color: $gray-darken-20;
+			}
+
+			a {
+				color: #fff;
+				text-decoration: none;
+
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.callout {
+		border: none;
+		//box-shadow: 2px 2px 2px rgba(0,0,0,0.35)
+	}
+
+	.panels {
+		@media screen {
+			margin-top: 2rem;
+		}
+
+		.panel {
+			padding: 0;
+		}
+	}
+}
+
+.checklist {
+	header {
+		background-color: #00C2FF;
+		color: #fff;
+	}
+
+	p {
+		border-bottom: 1px solid #e1e1e1;
+		margin: 0;
+		padding: 10px 5px;
+
+		i {
+			color: #0088B2;
+		}
+	}
+}
